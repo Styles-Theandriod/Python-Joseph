@@ -31,11 +31,42 @@ i = 0
 Value1 = 10
 value2 = 20
 
+
+
 while i < 30:
     i += 1
-    if i == range(3, 4, 5):
+    if i in range(2,6):
         continue
     print(i)
+
+
+fruits = ["apple", "banana", "cherry"]
+
+# for e in fruits:
+  
+#   if e is 'banana':
+#     break      
+#   print(e)
+
+for e in fruits:
+  
+  if e is 'banana':
+    continue     
+  print(e)
+
+
+print()
+
+adj = ["red", "big", "tasty"]
+fruit = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruit:
+    print(x, y)
+
+    
+
+
 
 
 

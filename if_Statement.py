@@ -6,8 +6,15 @@
 # Greater Than a > b 
 # Greater Than or Equal to a >= b 
 
-num1 = 50
-num2 = 40
+num1 = 0
+num2 = 50
+
+if num1 << num2:
+    print('Hello Afrika')
+else:
+    print('something else')
+
+print('   ')
 
 if num1 > num2:
     print('Num1 is greater Than num2')
