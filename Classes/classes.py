@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 class Person():
     def __init__(self, firstname, lastname, age, nationality, sex, race):
         self.firstname = firstname
