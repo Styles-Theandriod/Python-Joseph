@@ -30,3 +30,9 @@ floor = math.floor(5)
 # Pie = math.pi
 # print(Pie)
 
+addedValue = [5, 5, 5]
+result = sum(addedValue)
+print(result)
+
+myLength = [20, 30, 40]
+print(len(myLength))

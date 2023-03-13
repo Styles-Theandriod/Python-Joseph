@@ -33,12 +33,17 @@ value2 = 20
 
 
 
-while i < 30:
+while i < 8:
     i += 1
-    if i in range(2,6):
+    if i in range(3,5,1):
         continue
     print(i)
 
+
+# y = range(3, 5)
+
+# for i in y:
+#   print(y)
 
 fruits = ["apple", "banana", "cherry"]
 
@@ -48,21 +53,21 @@ fruits = ["apple", "banana", "cherry"]
 #     break      
 #   print(e)
 
-for e in fruits:
+# for e in fruits:
   
-  if e is 'banana':
-    continue     
-  print(e)
+#   if e is 'banana':
+#     continue     
+#   print(e)
 
 
-print()
+# print()
 
-adj = ["red", "big", "tasty"]
-fruit = ["apple", "banana", "cherry"]
+# adj = ["red", "big", "tasty"]
+# fruit = ["apple", "banana", "cherry"]
 
-for x in adj:
-  for y in fruit:
-    print(x, y)
+# for x in adj:
+#   for y in fruit:
+#     print(x, y)
 
     
 
